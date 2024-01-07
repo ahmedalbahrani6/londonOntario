@@ -4,17 +4,51 @@
     <meta charset="UTF-8">
     <title>Discover London, Ontario</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Style for the section */
+        .section {
+            display: flex;
+            align-items: center;
+            gap: 20px; /* Adjust spacing between image and text */
+            margin-bottom: 30px; /* Spacing between sections */
+        }
+
+        .section img {
+            max-width: 300px; /* Set maximum width for the image */
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Style for the text container */
+        .text-container {
+            flex-grow: 1; /* Allow the text container to grow */
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+        }
+
+        /* Style for the image container */
+        .image-container {
+            flex-shrink: 0; /* Prevent image from stretching */
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#city-overview">City Overview</a></li>
-            <li><a href="#climate">Climate</a></li>
-            <li><a href="#landform">Landform & Vegetation</a></li>
-            <li><a href="#demographics">Demographics</a></li>
-            <li><a href="#land-use">Land Use</a></li>
-            <li><a href="#resources">Resources & Industries</a></li>
-            <li><a href="#immigration">Immigration</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city_overview.html">City Overview</a></li>
+            <li><a href="climate.html">Climate</a></li>
+            <li><a href="landform_vegetation.html">Landform & Vegetation</a></li>
+            <li><a href="demographics.html">Demographics</a></li>
+            <li><a href="land_use.html">Land Use</a></li>
+            <li><a href="resources_industries.html">Resources & Industries</a></li>
+            
         </ul>
     </nav>
     <header>
@@ -22,70 +56,66 @@
     </header>
     <main>
         <section id="city-overview" class="section">
-            <h2>Day 1: City Overview</h2>
-            <p>
-                Location: London, Ontario (42.9849° N, 81.2453° W)<br>
-                Nearby areas: Bayfield, Chatham-Kent, Goderich<br>
-                Time Zone: Eastern Standard Time (EST)<br>
-                Population: 410,003 (1.03% of Canada's population)
-            </p>
+            <div class="text-container">
+                <h2><a href="city_overview.html">Day 1: City Overview</a></h2>
+                
+            </div>
+            <div class="image-container">
+                <img src="Map-showing-location-of-London-Ontario.png" alt=" Overview Image">
+            </div>
         </section>
 
         <section id="climate" class="section">
-            <h2>Day 2: Climate</h2>
-            <p>
-                Climate: Humid continental<br>
-                Average Annual Temperature: Around 8°C (46°F)<br>
-                Total Annual Precipitation: Approximately 1,000 mm (39 inches)<br>
-                Annual Temperature Range: From sub-zero in winter to highs averaging around 25°C (77°F) in summer<br>
-                Factors: Influenced by latitude, prevailing winds, elevation, proximity to Lake Huron, and the Great Lakes system (LOWERN)
-            </p>
+            <div class="text-container">
+                <h2><a href="climate.html">Day 2: Climate</a></h2>
+                
+            </div>
+            <div class="image-container">
+                <img src="20191019-NEO_2302_0.jpeg" alt="Climate Image">
+            </div>
         </section>
 
         <section id="landform" class="section">
-            <h2>Day 3: Landform & Vegetation</h2>
-            <p>
-                Topographic features: Lowland area with the Thames River, farmland, forests, gentle elevations<br>
-                Vegetation: Mixed wood forests, suitable for various types of vegetation
-            </p>
+            <div class="text-container">
+                <h2><a href="landform_vegetation.html">Day 3: Landform & Vegetation</a></h2>
+                
+            </div>
+            <div class="image-container">
+                <img src="westminster ponds.jpg.png" alt="Landform & Vegetation Image">
+            </div>
         </section>
 
         <section id="demographics" class="section">
-            <h2>Day 4: Demographics</h2>
-            <p>
-                Population pyramid: Typically shows a bulge in the working-age population<br>
-                Urban area
-            </p>
+            <div class="text-container">
+                <h2><a href="demographics.html">Day 4: Demographics</a></h2>
+                
+            </div>
+            <div class="image-container">
+                <img src="demo_sym.jpeg" alt="Demographics Image">
+            </div>
         </section>
+
+        <!-- Add other sections here following the same structure -->
 
         <section id="land-use" class="section">
-            <h2>Day 5: Land Use</h2>
-            <p>
-                Land Use: Mix of transportation, housing, commercial spaces, manufacturing<br>
-                Transportation: Road networks, public transit (buses)<br>
-                Housing: Single-family homes, apartments<br>
-                Commercial: Shopping centers, markets<br>
-                Recreational facilities: Parks, sports centers, entertainment venues
-            </p>
+            <div class="text-container">
+                <h2><a href="land_use.html">Day 5: Land Use</a></h2>
+               
+            </div>
+            <div class="image-container">
+                <img src="downtown-london-1967.webp" alt="Land Use Image">
+            </div>
         </section>
 
-        <section id="resources" class="section">
-            <h2>Day 6: Resources & Industries</h2>
-            <p>
-                Resources: Agricultural products (grains, livestock), freshwater from the Thames River<br>
-                Industries: Manufacturing (automotive, food processing), healthcare, education, technology<br>
-                Employment opportunities: Diverse range across various sectors
-            </p>
-        </section>
-
-        <section id="immigration" class="section">
-            <h2>Day 7: Immigration</h2>
-            <p>
-                Reasons for immigration to Canada: Job opportunities, higher quality of life, education, better medical care, security, diverse society<br>
-                London, Ontario's offerings: Real estate opportunities, quality education, diverse educational paths, good medical facilities, shopping, entertainment<br>
-                Contribution to the city: Volunteer work, taxes, employment in various sectors
-            </p>
-        </section>
+        <section id="Resources And Industries" class="section">
+            <div class="text-container">
+                <h2><a href="resources_industries.html">Day 6: Resources & Industries</a></h2>
+               
+            </div>
+            <div class="image-container">
+                <img src="resour.jpeg" alt="Resources & Industries Image">
+            </div>
+       
     </main>
     <footer>
         <p>Created by Ahmed Al-Bahrani, 2023</p>

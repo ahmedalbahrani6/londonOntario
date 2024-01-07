@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Land Use - London, Ontario</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Style for the section */
+        .section {
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+            gap: 20px; /* Adjust spacing between image and text */
+            margin-bottom: 30px; /* Spacing between sections */
+        }
+
+        .section img {
+            max-width: 400px; /* Set maximum width for the image */
+            border-radius: 8px; /* Add rounded edges */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section img:hover {
+            transform: scale(1.05);
+        }
+
+        .text-container {
+            flex-grow: 1; /* Allow the text container to grow */
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            max-width: 600px; /* Set maximum width for the text container */
+        }
+
+        .image-container {
+            flex-shrink: 0; /* Prevent image from stretching */
+            display: flex;
+            flex-direction: column; /* Stack images vertically */
+            gap: 20px; /* Adjust spacing between images */
+        }
+
+        .image-container img {
+            width: 100%; /* Make the image fill its container */
+            height: auto; /* Preserve aspect ratio */
+            border-radius: 8px; /* Inherit rounded edges */
+        }
+
+        /* Added style to move images to the right */
+        .image-container {
+            margin-left: auto; /* Push images to the right */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Land Use - London, Ontario</h1>
+    </header>
+    <main>
+        <section class="section">
+            <div class="text-container">
+                <h2>Day 5: Land Use</h2>
+                <div class="text">
+                    <p>
+                        London Ontario has a well-developed infrastructure having efficient transportation systems, diverse housing options, thriving commercial districts, industrial areas, and many public spaces. The city provides a rich variety of recreational facilities, from parks and sports centers to opportunities for outdoor activities along the Thames River, catering to diverse interests and promoting a vibrant community life.
+                    </p>
+                    <p>
+                        Land Use Details:
+                        <ul>
+                            <!-- Descriptions for each image -->
+                            <li><strong>Transportation (20%):</strong> Relies primarily on road networks, including major highways, and efficient public transit systems like buses.
+                                <ul>
+                                    <li>Road Network: Well-connected by major highways and roads facilitating easy travel.</li>
+                                    <li>Public Transit: Efficient bus services offering convenient transportation within the city.</li>
+                                    <li>Wellington Road serves as a primary example of transportation within London Ontario</li>
+                                </ul>
+                            </li>
+                            <li><strong>Housing (40%):</strong> Offers diverse options from residential neighborhoods to rural outskirts.
+                                <ul>
+                                    <li>Residential Areas: Diverse housing options, including single-family homes, apartments, and townhouses.</li>
+                                    <li>Suburban Neighborhoods: Offers suburban living with ample amenities and proximity to the city.</li>
+                                    <li>Wortley Village is one of the oldest villages in london ontario since 1890 it currently houses around 16,000 people</li>
+                                </ul>
+                            </li>
+                            <li><strong>Commercial (10%):</strong> Hosts various commercial districts and business hubs catering to diverse needs.
+                                <ul>
+                                    <li>Shopping Centers: Various shopping malls and retail outlets catering to different preferences.</li>
+                                    <li>Business Hubs: Hosts commercial areas supporting diverse industries and businesses.</li>
+                                    <li>If you're a shopaholic, I strongly recoment visiting Richmond Row. It is home to many buisnesses and attracts many tourists.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Manufacturing (10%):</strong> Features industrial zones supporting manufacturing and production sectors.</li>
+                           <ul>
+                            <li>London Ontario is filled with countless entrepeneurs and buisnesses in this image we can see one of the many industrial factories in London</li>
+                           </ul> 
+                            <li><strong>Public Spaces (20%):</strong> Abundance of parks, recreational areas, and cultural spaces enhancing community engagement.</li>
+                                <ul>
+                                    <li>Parks & Recreational Areas: Abundance of parks, green spaces, and recreational facilities promoting community engagement.</li>
+                                    <li>Cultural Spaces: Museums, galleries, and cultural centers fostering art and heritage appreciation.</li>
+                                    <li>One of the most beautiful parks in London would be Victoria park. It has fantastic landscape and greenery plus amentities like playgrounds.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="image-container">
+                 <p>Wellington Gateway</p>
+                <img src="Wellington Gateway.png" alt="Transportation Image">
+               
+                 <p>Wortley Village</p>
+                <img src="wortley_village.jpeg" alt="Housing Image">
+               
+<p>Richmond Row</p>
+                <img src="richmond_row.jpeg" alt="Commercial Image">
+                
+ <p>Industrial Factory</p>
+                <img src="industrial_area.jpeg" alt="Public Spaces Image">
+               
+ <p>Victoria Park</p>
+                <!-- Additional images -->
+                <img src="victoria park.jpeg" alt="Additional Image 1">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Ahmed, 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landform & Vegetation - London, Ontario</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add your CSS styles here */
+        .section {
+            display: flex;
+            align-items: flex-start; /* Align items at the start of the flex container */
+            gap: 20px; /* Adjust spacing between elements */
+            margin-bottom: 30px; /* Spacing between sections */
+        }
+
+        .section img {
+            max-width: 100%; /* Set maximum width for the image */
+            border-radius: 8px; /* Add rounded edges */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section img:hover {
+            transform: scale(1.05);
+        }
+
+        .text-container {
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            flex-grow: 1; /* Allow text to grow within the container */
+            max-width: 600px; /* Set maximum width for the text container */
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column; /* Stack images vertically */
+            gap: 10px; /* Adjust spacing between images */
+        }
+
+        .image-container img {
+            width: 100%; /* Make the image fill its container */
+            height: auto; /* Preserve aspect ratio */
+            border-radius: 8px; /* Inherit rounded edges */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Landform & Vegetation - London, Ontario</h1>
+    </header>
+    <main>
+        <section class="section">
+            <div class="text-container">
+                <h2>Day 3: Landform & Vegetation</h2>
+                <p>
+                    Landform/Topographic Features:
+                    <ul>
+                        <li>In a relatively lowland area shown by rolling hills and plains.</li>
+                        <li>The city isn't near major mountain ranges but has gentle slopes and valleys.</li>
+                        <li>The Thames River goes directly through the city which shapes some of its landscapes.</li>
+                        <li>Even though its not marshy the region has wetlands and small creeks.</li>
+                        <li>Agricultural fields stretch across the outskirts, marking the area's farming significance.</li>
+                    </ul>
+                    Vegetation:
+                    <ul>
+                        <li>London's vegetation comprises a mix influenced by the temperate climate.</li>
+                        <li>Deciduous trees like maple, oak, and birch are prevalent in the area.</li>
+                        <li>Grasslands and meadows dot the landscape, especially in rural outskirts.</li>
+                        <li>Agricultural crops such as corn, soybeans, and wheat thrive in the fertile soils.</li>
+                        <li>The moderate precipitation and temperature support diverse flora, allowing for a mix of forests, grassy areas, and cultivated farmlands.</li>
+                    </ul>
+                    The blend of rolling plains, the presence of the Thames River, scattered wetlands, and fertile fields contributes to a varied landscape in London. The temperate climate allows for a rich assortment of vegetation, including deciduous trees, grasslands, and agricultural crops, creating a diverse and visually captivating environment.
+                </p>
+            </div>
+            <div class="image-container">
+                <div class="image">
+                    <img src="landform_veg.jpeg" alt="Image 1">
+                </div>
+                <div class="image">
+                    <img src="veg.jpeg" alt="Image 2">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Ahmed, 2023</p>
+    </footer>
+</body>
+</html>

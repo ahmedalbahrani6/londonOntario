@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About London, Ontario</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Styles for the section */
+        .section {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .section img {
+            max-width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Styles for text content */
+        .text-container {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            max-width: 600px;
+        }
+
+        .image-container {
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-left: auto;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>About London, Ontario</h1>
+    </header>
+    <main>
+        <section class="section">
+            <div class="text-container">
+                <h2>Day 1: City Overview</h2>
+                <div class="text">
+                    
+                    <h3>City/Town and Province:</h3>
+                    <p>
+                        <strong>Location:</strong> Found at 42.9849° N, 81.2453° W in southwestern Ontario.<br>
+                        <strong>Time Zone:</strong> Uses the Eastern Standard Time zone.<br>
+                        <strong>Population:</strong> 410,003 residents, which is around 1.03% of Canada's total population.
+                    </p>
+                    <h3>Nearby Cities:</h3>
+                    <p>
+                        <strong>Bayfield, Ontario:</strong> Near Lake Huron, known for its beaches, culture, and historical sites.<br>
+                        <strong>Chatham-Kent, Ontario:</strong> Known for its agriculture, automotve manufacturing, and its historical significance.<br>
+                        <strong>Goderich, Ontario:</strong> On Lake Huron, famous for its coastal beauty, tourism, and salt mining.
+                    </p>
+                   
+                    </ul>
+                </div>
+            </div>
+            <div class="image-container">
+                <!-- Replace with actual image paths -->
+                <img src="city-of-london-ontario-map-ca-1915-2J8XBFB.jpeg" alt="London Image 1">
+                <img src="London_simple_details_2000x.webp" alt="London Image 2">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Ahmed, 2023</p>
+    </footer>
+</body>
+</html>

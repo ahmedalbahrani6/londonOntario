@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demographics - London, Ontario</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Style for the section */
+        .section {
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+            gap: 20px; /* Adjust spacing between image and text */
+            margin-bottom: 30px; /* Spacing between sections */
+        }
+
+        .section img {
+            max-width: 400px; /* Set maximum width for the image */
+            border-radius: 8px; /* Add rounded edges */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section img:hover {
+            transform: scale(1.05);
+        }
+
+        .text-container {
+            flex-grow: 1; /* Allow the text container to grow */
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            max-width: 600px; /* Set maximum width for the text container */
+        }
+
+        .image-container {
+            flex-shrink: 0; /* Prevent image from stretching */
+            display: flex;
+            flex-direction: column; /* Stack images vertically */
+            gap: 20px; /* Adjust spacing between images */
+        }
+
+        .image-container img {
+            width: 100%; /* Make the image fill its container */
+            height: auto; /* Preserve aspect ratio */
+            border-radius: 8px; /* Inherit rounded edges */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Demographics - London, Ontario</h1>
+    </header>
+    <main>
+        <section class="section">
+            <div class="text-container">
+                <h2>Day 4: Demographics</h2>
+                <div class="text">
+                    <p>
+                        London is mostly urban because it has a mix of residential, commercial, and industrial areas.
+                    </p>
+                    
+                    <p>
+                        Working-Age Population: Significant portion of the population, showing a large working-age group.
+                    </p>
+                    <p>
+                        Dependency Load: The population pyramid shows a relatively balanced structure, with the working-age group being able to support other groups who are dependent.
+                    </p>
+                    <p>
+                        Rural vs. Urban:
+                    </p>
+                    <ul>
+                        <li>Urban: London primarily stands as a developed urban center, having a lot of amenities, and an active cityscape.</li>
+                    </ul>
+                    <p>
+                        The population pyramid shows a good ratio with a large working-age population that is able to support other dependent groups, showing a reasonably balanced demographic structure in the city. As primarily an urban center, London has a mix of urban and rural elements but is fundamentally an urbanized area.
+                    </p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="demograpic_chart.png" alt="Image 1">
+                <img src="amenities_demo.jpeg" alt="Image 2">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Ahmed, 2023</p>
+    </footer>
+</body>
+</html>

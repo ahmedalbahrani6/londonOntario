@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Climate - London, Ontario</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Style for the section */
+        .section {
+            display: flex;
+            align-items: flex-start; /* Align items at the start of the flex container */
+            gap: 20px; /* Adjust spacing between elements */
+            margin-bottom: 30px; /* Spacing between sections */
+        }
+
+        .section img {
+            max-width: 100%; /* Set maximum width for the image */
+            border-radius: 8px; /* Add rounded edges */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section img:hover {
+            transform: scale(1.05);
+        }
+
+        .text-container {
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            flex-grow: 1; /* Allow text to grow within the container */
+            max-width: 600px; /* Set maximum width for the text container */
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column; /* Stack images vertically */
+            gap: 10px; /* Adjust spacing between images */
+        }
+
+        .image-container img {
+            width: 100%; /* Make the image fill its container */
+            height: auto; /* Preserve aspect ratio */
+            border-radius: 8px; /* Inherit rounded edges */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Climate - London, Ontario</h1>
+    </header>
+    <main>
+        <section class="section">
+            <div class="text-container">
+                <h2>Day 2: Climate</h2>
+                <div class="text">
+                    <p>
+                       London has a continental climate. The average annual temperature is around 7-9°C (45-48°F). The total annual precipitation goes to around 1000 mm. The annual temperature range can vary significantly, usually going from sub-zero temperatures in winter to highs of around 30°C in summer.
+                    </p>
+                    <p>
+                      Climate factors influencing London:
+                        <ul>
+                            <li>Latitude: Becasue of its higher latitude, London experiences seasonal changes in daylight hours.</li>
+                            <li>Ocean currents: While not directly coastal, the Great Lakes affect local weather patterns, having an influenece on temperature and precipitation.</li>
+                            <li>Winds: In london they have very strong winds which impact temperature and moisture levels, affecting weather conditions throughout the year.</li>
+                            <li>Elevation: Even though its not that high,the  elevation influences its temperature and precipitation patterns.</li>
+                            <li>Topography: Surrounding mountains are often changing microclimates within London.</li>
+                            <li>Bodies of water: Because of how close London is to the great lakes, its precipitation is often affected. In fact, London is less than an hour drive to 2 of teh great lakes!</li>
+                        </ul>
+                        All of these factors collectively affect London's cliamte. This allows London to be characterized as a city with an incredible variety in its climate.
+                    </p>
+                </div>
+            </div>
+            <div class="image-container">
+                <div class="image">
+                    <img src="graph_climate.png" alt="Image 1">
+                </div>
+                <div class="image">
+                    <img src="london_climat.avif" alt="Image 1">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Ahmed, 2023</p>
+    </footer>
+</body>
+</html>
